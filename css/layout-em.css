@@ -1702,6 +1702,14 @@ a.SearchBook.Disabled{
 	float: right;
 	margin-top: -65px;
 }
+@media (max-width: 767px) {
+	.Function.FunctionTop {
+		float: none;
+		margin-top: 0;
+		margin: 1.5em 0;
+	}
+}
+
 .Function.FunctionLp {
 	float: right;
 	/*margin-top: -65px;*/
