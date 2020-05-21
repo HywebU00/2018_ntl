@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		table{
+			border: solid 1px #555;
+			width: 100%;
+		}
+		table+table{ margin-top: 30px; }
+		table b{ margin: 0 10px; }
+		thead th{ background: #8a5d23; color: #fff; line-height: 2; }
+		tbody th{ background: #ddd; line-height: 1.6; }
+		tbody th, tbody td{ padding: .125em .25em; }
+		tbody td{ border-bottom: solid 1px #DDE;}
+		tbody tr:last-child td{ border-bottom: solid 1px transparent; }
+
+
+		tfoot{
+			text-align: right;
+			font-size: 1.25em;
+		}
+		tfoot td{ padding: 0 1em; }
+		tfoot tr:first-child td{
+			border-top: dotted 2px #555;
+			padding-top: 15px;
+		}
+		tfoot tr:last-child td{ padding-bottom: 15px; }
+		a, b{ color: #f15500; }
+		p{ word-wrap: break-word; word-break: break-all; }
+		a{ text-decoration: underline; }
+		a.Checked{
+			display: block;
+			background: #3596e0;
+			color: #fff;
+			width: 60%;
+			margin: 30px auto;
+			line-height: 3.6;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		a.Checked:hover{ background:  #f15500; }
+	</style>
+</head>
+<body>
+	<p>親愛的陳大牛您好:<br>感謝您訂購國立台灣圖書館出版品，本館已經收到您的訂購資訊如下方明細確認您的訂單後，請點選最下面<b>認證訂單</b>按鈕後接下來會有專人與您聯絡後續<b>付款資訊</b>與<b>寄出訂購</b>貨物流程。</p>
+	<p>如有任何問題與建議，歡迎與我們聯繫，謝謝您！<br>服務信箱: <a href="#" title=""> user@mail.ntl.edu.tw</a>此信件為系統直接發送，請勿直接回覆此信件！</p>
+	<p class="text-right">國立台灣圖書館 敬上</p>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="6">您的訂購單</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th width="20%">訂單編號</th>
+				<td colspan="5">123</td>
+			</tr>
+			<tr>
+				<th width="20%">訂購日期</th>
+				<td colspan="5">2018/6/29 上午03:32:31</td>
+			</tr>
+			<tr>
+				<th width="20%">訂購人</th>
+				<td colspan="5">陳大牛</td>
+			</tr>
+			<tr>
+				<th width="20%">Email</th>
+				<td colspan="5">testhyweb@hyweb.com.tw</td>
+			</tr>
+			<tr>
+				<th width="20%">聯絡手機</th>
+				<td colspan="5">0912345678</td>
+			</tr>
+			<tr>
+				<th width="20%">聯絡市話</th>
+				<td colspan="5">035555555</td>
+			</tr>
+			<tr>
+				<th width="20%">地址</th>
+				<td colspan="5">新竹縣竹北市新民街xx號</td>
+			</tr>
+			<tr>
+				<th width="20%">訂購人備註</th>
+				<td colspan="5">無</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th width="20%">訂購類別</th>
+				<th width="25%">品名</th>
+				<th width="20%">尺寸</th>
+				<th width="15%">說明</th>
+				<th width="10%">數量</th>
+				<th width="10%">定價</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td align="center">創意商品</td>
+				<td>《跫音50開新局—陽明山中山樓50週年紀念影像》</td>
+				<td align="center">220*310 mm(一面滿版圖案、一面透明局部印製)</td>
+				<td align="center">共6款：基隆、北投、臺中、臺南、高雄、臺東</td>
+				<td align="center">2</td>
+				<td align="center">400</td>
+			</tr>
+			<tr>
+				<td align="center">創意商品</td>
+				<td>《跫音50開新局—陽明山中山樓50週年紀念影像》</td>
+				<td align="center">單張20元 / 一套12張，200元</td>
+				<td align="center">精裝</td>
+				<td align="center">1</td>
+				<td align="center">400</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="6">共<b>3</b>件</td>
+			</tr>
+			<tr>
+				<td colspan="6">總計 NT.<b>1200</b> 元</td>
+			</tr>
+		</tfoot>
+	</table>
+	<table>
+		<thead>
+			<tr>
+				<th>確認訂單</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td align="center">
+					<p>確認您的訂單後，請點選最下面<b>認證訂單</b>按鈕後<br>接下來會有專人與您聯絡後續<b>付款資訊</b>與<b>寄出訂購</b>貨物 流程。</p>
+					<a href="#" title="" class="Checked">已確定，訂單內容無誤</a>
+					<p>如上方按鈕無法使用，請複製下方網址並將其貼入新瀏覽器視窗</p>
+					<p>https://xxx.edu.tw/v1/keya/YPYPNJ7R0O4MINYOWGPYH7QG107KWL6F</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
