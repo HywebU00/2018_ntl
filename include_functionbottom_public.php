@@ -1,4 +1,4 @@
-<div class="Function FunctionBottom hidden-xs">
+<div class="Function FunctionBottom">
 	<!-- Public -->
 	<a href="#" class="Twitter-BTN"><i class="icon-twitter"></i></a>
 	<a href="#" class="FB-BTN"><i class="icon-facebook-1"></i></a>
