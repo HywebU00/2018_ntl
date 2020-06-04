@@ -1872,7 +1872,9 @@ a.SearchBook.Disabled{
 .FB-BTN,
 .Twitter-BTN,
 .Google-BTN,
-.Plurk-BTN{
+.Plurk-BTN,
+.line-BTN,
+.youtube-BTN{
 	width: 28px;
 	height: 28px;
 	line-height: 28px;
@@ -1883,13 +1885,20 @@ a.SearchBook.Disabled{
 	margin-left: 4px!important;
 }
 
-.Rss-BTN i,.FB-BTN i,.Twitter-BTN i,.Google-BTN i,.Plurk-BTN i{color: #fff;}
+.Rss-BTN i,.FB-BTN i,.Twitter-BTN i,.Google-BTN i,.Plurk-BTN i,.youtube-BTN i{color: #fff;}
 
 .Rss-BTN{background: #f8991d;}
 .FB-BTN{background: #3a5ba0;}
 .Twitter-BTN{background: #17b3c9;}
 .Google-BTN{background: #cf262a;}
 .Plurk-BTN{background: #f2793e;}
+.line-BTN{
+	background: url(../images/LINE_APP.png) 50% 50% no-repeat, #00b900;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.youtube-BTN{background: #cf262a;}
 
 
 .required {color: red; margin-right: 5px;margin-left: 5px; }

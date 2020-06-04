@@ -4,6 +4,8 @@
 	<a href="#" class="FB-BTN"><i class="icon-facebook-1"></i></a>
 	<a href="#" class="Plurk-BTN"><i class="icon-plurk"></i></a>
 	<a href="#" class="Google-BTN"><i class="icon-gplus"></i></a>
+	<a href="#" class="line-BTN"><i class="icon-line"></i></a>
+	<a href="#" class="youtube-BTN"><i class="icon-youtube-play"></i></a>
 	<!-- Print -->
 	<a href="#" class="icon-print">友善列印</a>
 	<!-- Email -->
