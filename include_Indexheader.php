@@ -1,3 +1,5 @@
+<!-- 直接跳主內容區 -->
+<a class="goCenter" href="#MainContent" tabindex="1">按Enter到主內容區</a>
 <section id="Header">
 	<nav class="navbar set-relative" role="navigation">
 		<div class="accesskey hidden-xs"><a href="#" title="header" id="accesskeyU" accesskey="U">:::</a></div>

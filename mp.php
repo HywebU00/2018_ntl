@@ -4,10 +4,11 @@
 <body>
 	<!-- Header -->
 	<?php require_once('include_Indexheader.php'); ?>
-	<!-- slider -->
-	<?php require_once('include_slider.php'); ?>
 	<!-- Content -->
 	<section id="MainContent" class="Index">
+		<a class="accesskey" href="#aC" id="aC" accesskey="C" title="中央內容區塊">:::</a>
+		<!-- slider -->
+		<?php require_once('include_slider.php'); ?>
 		<div class="Block0">
 			<div class="container">
 				<div class="row">

@@ -1,3 +1,5 @@
+<!-- 直接跳主內容區 -->
+<a class="goCenter" href="#MainContent" tabindex="1">按Enter到主內容區</a>
 <section id="Header">
   <nav class="navbar set-relative" role="navigation">
     <div class="accesskey hidden-xs"><a href="#" title="header" id="accesskeyU" accesskey="U">:::</a></div>
@@ -42,9 +44,7 @@
                   <div class="input-group">
                     <input type="text" class="form-control" placeholder="站內搜尋">
                     <span class="input-group-btn">
-                      <button type="button" class="btn">
-                        <span class="icon-search-1"></span>
-                      </button>
+                      <button type="button" class="btn"><span class="icon-search-1"></span></button>
                     </span>            
                   </div>  
                   <button type="button" class="btn">進階搜尋</button>
