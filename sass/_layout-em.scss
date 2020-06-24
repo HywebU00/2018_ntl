@@ -1859,9 +1859,14 @@ a.SearchBook.Disabled{
 .Function a {
 	margin-left: 15px;
 	color: #6d6d6d;
+	line-height: 36px;
 }
 .Function a:before {
 	color: #a75e00;
+
+	&.FB-BTN{
+		background: #3a5ba0;
+	}
 }
 .Function a:hover {
 	color: #6d6d6d;
@@ -2054,30 +2059,63 @@ a.SearchBook.Disabled{
 .Plurk-BTN,
 .line-BTN,
 .youtube-BTN{
-	width: 28px;
-	height: 28px;
-	line-height: 28px;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
 	text-align: center;
 	display: inline-block;
 	border-radius: 50%;
 	margin-right: 0px!important;
 	margin-left: 4px!important;
+
+	font-size: 0;
 }
 
-.Rss-BTN i,.FB-BTN i,.Twitter-BTN i,.Google-BTN i,.Plurk-BTN i,.youtube-BTN i{color: #fff;}
 
-.Rss-BTN{background: #f8991d;}
-.FB-BTN{background: #3a5ba0;}
-.Twitter-BTN{background: #17b3c9;}
-.Google-BTN{background: #cf262a;}
-.Plurk-BTN{background: #f2793e;}
-.line-BTN{
-	background: url(../images/LINE_APP.png) 50% 50% no-repeat, #00b900;
+// .Rss-BTN i,.FB-BTN i,.Twitter-BTN i,.Google-BTN i,.Plurk-BTN i,.youtube-BTN i{ color: #fff;}
+
+.Rss-BTN{
+	background: #f8991d;
 	-webkit-background-size: contain;
 	background-size: contain;
 	vertical-align: bottom;
 }
-.youtube-BTN{background: #cf262a;}
+.FB-BTN{
+	background: url(../images/basic/icon_facebook.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.Twitter-BTN{
+	background: url(../images/basic/icon_twitter.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.Google-BTN{
+	background: url(../images/basic/icon_googleplus.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.Plurk-BTN{
+	background: url(../images/basic/icon_plurk.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.line-BTN{
+	background: url(../images/basic/icon_line.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
+.youtube-BTN{
+	background: url(../images/basic/icon_youtube.png) 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	vertical-align: bottom;
+}
 
 
 .required {color: #cf262a; margin-right: 5px;margin-left: 5px; }
