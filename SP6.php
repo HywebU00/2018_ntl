@@ -54,8 +54,10 @@
 										</dl>
 									</div>
 									<div class="inner">
-										<a href="" title="" class="ReadMore">名單查詢</a>
-										<a href="" title="" class="ReadMore Disabled">線上報名</a>
+										<a href="#" title="" class="ReadMore">名單查詢 a type</a>
+										<a href="#" title="" class="ReadMore Disabled">線上報名 a type</a>
+										<input type="button" class="ReadMore" value="一般按鈕 input type">
+										<input type="button" class="ReadMore Disabled" value="不可用按鈕 input type" disabled>
 										<div class="clearfix"></div>	
 									</div>
 								</div>
@@ -73,13 +75,13 @@
 											<dd>2015/12/7 - 2016/3/10 下午 05:00:00</dd>
 											<dt>報名人數：</dt>
 											<dd>15 / 70人</dd>
-											<dt>備取人數：</dt>
+											<dt>備取人數：</d	t>
 											<dd>0人 / 5</dd>
 										</dl>
 									</div>
 									<div class="inner">
-										<a href="" title="" class="ReadMore">名單查詢</a>
-										<a href="" title="" class="ReadMore">線上報名</a>
+										<a href="#" title="" class="ReadMore">名單查詢</a>
+										<a href="#" title="" class="ReadMore">線上報名</a>
 										<div class="clearfix"></div>	
 									</div>
 								</div>

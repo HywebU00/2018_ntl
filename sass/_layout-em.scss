@@ -37,6 +37,28 @@ dl{
 // dl dt {color: #222;}
 // dt,dd{line-height: 180%;}
 
+.scrollToTop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../images/basic/top.png) no-repeat center top rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #FFF;
+    line-height: 50px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: .3s ease-out;
+    display: none;
+    z-index: 99999999;
+    text-indent: -999999px;
+    &:hover,&:focus{
+        background: url(../images/basic/top.png) no-repeat center top rgba(0, 0, 0, 0.8);
+        box-shadow:none;
+    }
+}
+
 .radio,
 .checkbox{
 	label{ margin-right:12px; }
@@ -116,11 +138,20 @@ dl{
 					height: 55px;
 					left: 5px;
 					top: 110px;
-					img {
+
+					h1{
+						font-size: 0;
+						background: url(../images/basic/logo.png) 50% 50% no-repeat;
+						background-size: contain;
 						width: 283px;
 						height: 55px;
-						margin: 0 auto;
+						margin: 0;
 					}
+					// img {
+					// 	width: 283px;
+					// 	height: 55px;
+					// 	margin: 0 auto;
+					// }
 				}
 			}
 		}
@@ -244,12 +275,21 @@ dl{
 		height: 55px;
 		left: 30px;
 		top: 110px;
+
+		h1{
+			font-size: 0;
+			background: url(../images/basic/logo.png) 50% 50% no-repeat;
+			background-size: contain;
+			width: 283px;
+			height: 55px;
+			margin: 0;
+		}
 	}
-	#Header .navbar .navbar-header .Logo img {
-		width: 283px;
-		height: 55px;
-		margin: 0 auto;
-	}
+	// #Header .navbar .navbar-header .Logo img {
+	// 	width: 283px;
+	// 	height: 55px;
+	// 	margin: 0 auto;
+	// }
 
 	/*navbar*/
 	#Header .navbar .navbar-nav > li > a{background: none;}
@@ -330,10 +370,19 @@ dl{
 		display: inline-block;
 		padding-top: 9px;
 		padding-bottom: 9px;
+
+		h1{
+			font-size: 0;
+			background: url(../images/basic/logo.png) 50% 50% no-repeat;
+			background-size: contain;
+			width: 180px;
+			height: 30px;
+			margin: 0;
+		}
 	}
-	#Header .navbar .navbar-header .Logo img {
-		width: 180px;
-	}
+	// #Header .navbar .navbar-header .Logo img {
+	// 	width: 180px;
+	// }
 
 	/*navbar*/
 	#Header .navbar .navbar-nav > li > a{background: none;}
@@ -1661,6 +1710,7 @@ dl{
 
 /*詳全文*/
 a.ReadMore,
+input.ReadMore,
 a.SearchBook{ 
 	display:inline-block; /* float:right; */ padding:0px 20px;
 	border-radius:4px;	margin-left:8px;
@@ -1680,17 +1730,23 @@ a:focus.CalendarBtn{
 
 a:hover.ReadMore,
 a:focus.ReadMore,
+input:hover.ReadMore,
+input:focus.ReadMore,
 a:hover.SearchBook,
 a:focus.SearchBook{ 
 	color: #a75e00 !important; background:#fff; border:solid 1px #b49061;
 	text-decoration:none !important;
 }
 a.ReadMore.Disabled,
+input.ReadMore.Disabled,
 a.SearchBook.Disabled{
 	color: #444;
 	background: #e8e8e8;
 	border: solid 1px #c5c5c5;
-	cursor:default;
+	cursor: not-allowed;
+	&:hover, &:focus{
+		color: #444 !important; 
+	}
 }
 
 
@@ -1822,8 +1878,14 @@ a.SearchBook.Disabled{
 
 /*---------------------------Normail Shared > page-------------------------------*/
 
-.Inner{background: url(../images/basic/shadow.png) repeat-x 0 0;}
-.Inner .ContentPage{ line-height: 180%;}
+.Inner{
+	background: url(../images/basic/shadow.png) repeat-x 0 0;
+	.ContentPage{
+		line-height: 180%;
+		position: relative;
+	}
+}
+
 /*麵包屑+功能*/
 #breadcrumb {
 	margin-top: 20px;
@@ -1885,9 +1947,32 @@ a.SearchBook.Disabled{
 }
 
 .Function.FunctionLp {
-	float: right;
-	/*margin-top: -65px;*/
+	// float: right;
+	// margin-top: -65px;
 	text-align: right;
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	a{
+		padding: .5em 1em;
+		box-shadow: inset 0px 0px 0px 1px rgb(124,78,19);
+		margin-left: .5em;
+		border-radius: 4px;
+		
+		&:hover{
+			background: rgb(124,78,19);
+			color: #fff;
+
+			&:before{
+				color: #fff;
+			}
+		}
+		&:hover, &:focus{
+			box-shadow: inset 0px 0px 0px 3px rgb(124,78,19);
+		}
+	}
 }
 .Function.FunctionBottom {
 	float: right;
@@ -2128,6 +2213,18 @@ a.SearchBook.Disabled{
 }
 .form-group .form-control {height: auto; }
 
+
+.btn-check{
+	background: #222;
+    color: #fff;
+    border: 0;
+    padding: .25em .75em;
+    border-radius: 3px;
+
+    &:hover, &:focus{
+    	background: #7C4E13;
+    }
+}
 .brown{ color:#915200 !important;  font-size:1.1em;}
 .btn-gray { background: #695944; color: #fff !important;}
 .btn-orange { background: #ff9600; color: #222 !important; }
@@ -2651,7 +2748,7 @@ a:hover.org-orange, a:focus.org-orange{background:#f95800;}
 span.glyphicon.glyphicon-search{line-height: inherit !important;}/*搜尋icon位置修正*/
 #breadcrumb .breadcrumb i.icon-home-1:before {line-height: inherit !important;}/*麵包屑icon位置修正*/
 /*修正微調 0223*/
-[class^="icon-"]:before, [class*=" icon-"]:before {line-height: inherit !important;}/*分享icon位置修正*/
+// [class^="icon-"]:before, [class*=" icon-"]:before {line-height: inherit !important;}/*分享icon位置修正*/
 /*修正微調 0302*/
 .WORD-BTN,
 .PDF-BTN,

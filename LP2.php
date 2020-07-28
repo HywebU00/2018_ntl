@@ -15,12 +15,12 @@
 					<!-- function -->
 					<?php require('include_functiontop.php'); ?>					
 					<!-- content -->											
-					<div class="ContentPage">				
+					<div class="ContentPage">
 						<h2 class="PageTitle">好書推薦專區</h2>
+						<?php require('include_functionlp.php'); ?>
 						<div class="Top-Text">
 							<p>頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字</p>
 						</div>
-						<?php require('include_functionlp.php'); ?>
 						<!-- Tag 分類標籤-->
 						<div class="Tag">
 							<a class="here" href="#">全部(97)</a>

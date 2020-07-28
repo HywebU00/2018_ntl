@@ -10,7 +10,10 @@
           <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#offcanvas-left">
             <span class="sr-only">Toggle navigation</span><i class="icon-menu"></i>
           </button>
-          <a class="Logo" href="#"><img src="images/basic/logo.png" alt="" class="img-responsive"></a>
+          <a class="Logo" href="#">
+            <h1>國立臺灣圖書館</h1>
+            <!-- <img src="images/basic/logo.png" alt="" class="img-responsive"> -->
+          </a>
           <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#offcanvas-right">
             <span class="sr-only">Toggle navigation</span><i class="icon-down-open"></i>
           </button> 

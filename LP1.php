@@ -93,6 +93,5 @@
 	<?php require_once('include_footer.php'); ?>
 	<!-- jQuery -->
 	<?php require_once('include_jq.php'); ?>
-	
 </body>
 </html>

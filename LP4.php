@@ -17,11 +17,10 @@
 					<!-- content -->											
 					<div class="ContentPage">				
 						<h2 class="PageTitle">儀器設備</h2>
+						<?php require('include_functionlp.php'); ?>
 						<div class="Top-Text">
 							<p>頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字頁頭文字</p>
 						</div>
-						<!-- search -->
-						<?php require('include_functionlp.php'); ?>
 						<!-- page -->
 						<?php require('include_page.php'); ?>
 						<!-- list 列表-->
