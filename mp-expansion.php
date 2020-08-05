@@ -483,7 +483,12 @@
 								<a href="" title="">臺圖書醫院</a>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 Center-BG06">
+							<div class="Center-Name">
+								<a href="" title="">本土教育資源中心</a>
+							</div>
+						</div>
+						<!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 							<div class="Center-Name">
 								<div id="fb-root"></div>
 								<script>(function(d, s, id) {
@@ -495,7 +500,7 @@
 								}(document, 'script', 'facebook-jssdk'));
 							</script>
 							<div class="fb-page" data-href="https://www.facebook.com/&#x570b;&#x7acb;&#x81fa;&#x7063;&#x5716;&#x66f8;&#x9928;-873109812704792/" data-tabs="timeline" data-width="313" data-height="220" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

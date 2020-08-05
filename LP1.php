@@ -29,7 +29,46 @@
 							<a class="" href="#">資料大類C (筆數)</a>
 						</div>
 						<!-- page -->
-						<?php require('include_page.php'); ?>	
+						<?php require('include_page.php'); ?>
+						<!--  -->
+						<div class="form-group typeA">
+							<label for="inputCaptcha" class="col-md-3 control-label brown">以活動類別進行列表過濾：</label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option value="" selected="">所有活動類別</option>
+									<option value="3">臺灣學系列講座</option>
+									<option value="2">視障活動報名</option>
+									<option value="4">親子</option>
+									<option value="5">終身學習系列講座</option>
+									<option value="6">圖書醫院</option>
+									<option value="8">閱讀起步走:嬰幼兒父母學習講座</option>
+									<option value="9">志工活動</option>
+									<option value="12">研討會</option>
+									<option value="13">電子資源推廣課程</option>
+									<option value="14">環境教育</option>
+									<option value="15">館員專區</option>
+									<option value="16">樂齡服務講座</option>
+									<option value="17">閱讀起步走—開啟寶寶的閱讀之門講座</option>
+									<option value="18">家庭教育及親子共讀種子教師培訓</option>
+									<option value="19">閱讀推廣</option>
+									<option value="20">中山樓環境教育推廣活動</option>
+									<option value="21">中山樓50週年慶系列</option>
+									<option value="22">臺灣學活動</option>
+									<option value="23">幸福家庭閱讀計畫</option>
+									<option value="24">臺灣閱讀公園系列活動</option>
+									<option value="25">家庭教育及全家共讀種子教師培訓</option>
+									<option value="26">多元文化講座</option>
+									<option value="27">發展各領域課程計畫</option>
+									<option value="28">家庭教育及全家共讀系列活動</option>
+									<option value="29">全國公共圖書館館員專業知能培訓</option>
+									<option value="30">科普系列講座</option>
+									<option value="31">2018幸福交享閱-家庭教育及全家共讀系列活動</option>
+									<option value="32">中山樓文化教育推廣</option>
+									<option value="33">與作家有約</option>
+								</select>
+							</div>
+							<input type="button" class="btn-check col-md-1" value="確定">
+						</div>
 						<!-- list 列表-->
 						<div class="List">
 							<span class="MetaDay">2015/11/10</span>
