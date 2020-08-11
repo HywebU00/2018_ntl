@@ -471,6 +471,11 @@ dl{
 
 		.pic {
 			position: relative;
+			a{
+				display: block;
+				border: solid 0px rgba(143, 81, 0, 0);
+				&:hover, &:focus{ border: solid 3px rgba(143, 81, 0, .75); }
+			}
 			.caption {
 				background: #a4a4a4;
 				color: #fff;
@@ -1401,6 +1406,13 @@ dl{
 		background: #fff2e2;
 		width:550px;
 		margin: 20px 0;
+
+		legend{
+			font-size: 1.125em;
+		    margin-bottom: .25em;
+		    border-bottom: 0;
+		    font-weight: bold;
+		}
 	}
 	.Feedback .inner{ margin-bottom:10px; }
 
@@ -1616,6 +1628,7 @@ dl{
 	font-size: 1em;
 	color: #7c4e13;
 	margin-right: 10px;
+	margin-bottom: 3px;
 }
 
 .More {

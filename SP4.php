@@ -33,183 +33,185 @@
 						<br>
 						<div class="blockB">
 							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>參觀時間</label>
-									<div class="col-md-10">
-										<div class="input-group date">
-										    <input type="date" class="form-control" value="請輸入參觀時間">
-										    <div class="input-group-addon">
-										        <span class="icon-calendar"></span>
-										    </div>
+								<fieldset>
+									<div class="form-group">
+										<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>參觀時間</label>
+										<div class="col-md-10">
+											<div class="input-group date">
+											    <input type="date" class="form-control" value="請輸入參觀時間">
+											    <div class="input-group-addon">
+											        <span class="icon-calendar"></span>
+											    </div>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputName" class="col-md-2 control-label"><span class="required">*</span>申請單位</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputName" placeholder="請輸入申請單位">
+									<div class="form-group">
+										<label for="inputName" class="col-md-2 control-label"><span class="required">*</span>申請單位</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputName" placeholder="請輸入申請單位">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputNo" class="col-md-2 control-label"><span class="required">*</span>總人數</label>
-									<div class="col-md-10">
-										<input type="number" class="form-control" id="inputNo" placeholder="請輸入總人數">
+									<div class="form-group">
+										<label for="inputNo" class="col-md-2 control-label"><span class="required">*</span>總人數</label>
+										<div class="col-md-10">
+											<input type="number" class="form-control" id="inputNo" placeholder="請輸入總人數">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">成員組成</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="" placeholder="請輸入成員組成">
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">成員組成</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="" placeholder="請輸入成員組成">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputContact" class="col-md-2 control-label"><span class="required">*</span>聯絡人</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputContact" placeholder="請輸入聯絡人">
+									<div class="form-group">
+										<label for="inputContact" class="col-md-2 control-label"><span class="required">*</span>聯絡人</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputContact" placeholder="請輸入聯絡人">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputAddress" class="col-md-2 control-label">地址</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputAddress" placeholder="請輸入地址">
+									<div class="form-group">
+										<label for="inputAddress" class="col-md-2 control-label">地址</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputAddress" placeholder="請輸入地址">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>聯絡電話</label>
-									<div class="col-md-10">
-										<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入聯絡電話">
+									<div class="form-group">
+										<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>聯絡電話</label>
+										<div class="col-md-10">
+											<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入聯絡電話">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputPhone2" class="col-md-2 control-label">手機</label>
-									<div class="col-md-10">
-										<input type="tel" class="form-control" id="inputPhone2" placeholder="請輸入手機">
+									<div class="form-group">
+										<label for="inputPhone2" class="col-md-2 control-label">手機</label>
+										<div class="col-md-10">
+											<input type="tel" class="form-control" id="inputPhone2" placeholder="請輸入手機">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputEmail" class="col-md-2 control-label"><span class="required">*</span>電子郵件</label>
-									<div class="col-md-10">
-										<input type="email" class="form-control" id="inputEmail" placeholder="請輸入電子郵件">
+									<div class="form-group">
+										<label for="inputEmail" class="col-md-2 control-label"><span class="required">*</span>電子郵件</label>
+										<div class="col-md-10">
+											<input type="email" class="form-control" id="inputEmail" placeholder="請輸入電子郵件">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">國小中低年級<br>（1-4年級）可複選</label>
-									<div class="col-md-10">
-										<div class="checkbox">
-											<label>
-									        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">
-									        <label>
-									        	<input type="checkbox"> 親子資料中心（約40分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 雙和藝廊（約30分鐘）
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">國小中低年級<br>（1-4年級）可複選</label>
+										<div class="col-md-10">
+											<div class="checkbox">
+												<label>
+										        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">
+										        <label>
+										        	<input type="checkbox"> 親子資料中心（約40分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 雙和藝廊（約30分鐘）
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">國小高年級、<br>國高中、<br>大專院校、<br>社會人士、<br>研究機關等團體<br>可複選</label>
-									<div class="col-md-10">
-										<div class="checkbox">
-											<label>
-									        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">
-									        <label>
-									        	<input type="checkbox"> 1-6樓,全樓層設施參觀介紹（約1小時50分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 1樓親子資料中心（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 1樓視障資料中心（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 4樓雙和藝廊（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 5-6樓臺灣學研究中心（約30分鐘）
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">國小高年級、<br>國高中、<br>大專院校、<br>社會人士、<br>研究機關等團體<br>可複選</label>
+										<div class="col-md-10">
+											<div class="checkbox">
+												<label>
+										        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">
+										        <label>
+										        	<input type="checkbox"> 1-6樓,全樓層設施參觀介紹（約1小時50分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 1樓親子資料中心（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 1樓視障資料中心（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 4樓雙和藝廊（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 5-6樓臺灣學研究中心（約30分鐘）
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">國高中、<br>大專院校、<br>社會人士、<br>研究機關等團體<br>可複選</label>
-									<div class="col-md-10">
-										<div class="checkbox">
-											<label>
-									        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">
-									        <label>
-									        	<input type="checkbox"> 1-6樓,全樓層設施參觀介紹（約1小時50分鐘）
-									        </label>
-									    </div>
-									    <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 1樓親子資料中心（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 1樓視障資料中心（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 4樓雙和藝廊（約40分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 5-6樓臺灣學研究中心（約30分鐘）
-									        </label>
-								        </div>
-								        <div class="checkbox">   
-									        <label>
-									        	<input type="checkbox"> 5樓臺灣圖書醫院裝訂室（約30分鐘）【星期三14：00-17：00】
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">國高中、<br>大專院校、<br>社會人士、<br>研究機關等團體<br>可複選</label>
+										<div class="col-md-10">
+											<div class="checkbox">
+												<label>
+										        	<input type="checkbox"> 1-4樓,全樓層設施參觀介紹（約1小時30分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">
+										        <label>
+										        	<input type="checkbox"> 1-6樓,全樓層設施參觀介紹（約1小時50分鐘）
+										        </label>
+										    </div>
+										    <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 1樓親子資料中心（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 1樓視障資料中心（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 4樓雙和藝廊（約40分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 5-6樓臺灣學研究中心（約30分鐘）
+										        </label>
+									        </div>
+									        <div class="checkbox">   
+										        <label>
+										        	<input type="checkbox"> 5樓臺灣圖書醫院裝訂室（約30分鐘）【星期三14：00-17：00】
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">備註</label>
-									<div class="col-md-10">
-										<textarea class="form-control" rows="3" placeholder="請輸入備註" id="inputContent"></textarea>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">備註</label>
+										<div class="col-md-10">
+											<textarea class="form-control" rows="3" placeholder="請輸入備註" id="inputContent"></textarea>
+										</div>
 									</div>
-								</div>
-								<div class="form-group MarginBottom15">
-									<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
-									<div class="col-md-5">
-										<input type="password" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+									<div class="form-group MarginBottom15">
+										<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
+										<div class="col-md-5">
+											<input type="password" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+										</div>
+										<div class="col-md-5">
+											<span class="captcha"><img src="images/basic/code.bmp"></span>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+										</div>
 									</div>
-									<div class="col-md-5">
-										<span class="captcha"><img src="images/basic/code.bmp"></span>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+									<div class="form-group">
+										<div class="col-md-offset-2 col-md-10">
+											<button type="submit" class="btn btn-orange">送出</button>
+											<button type="clear" class="btn btn-gray">清除重填</button>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-md-offset-2 col-md-10">
-										<button type="submit" class="btn btn-orange">送出</button>
-										<button type="clear" class="btn btn-gray">清除重填</button>
-									</div>
-								</div>
+								</fieldset>
 							</form>	
 						</div>						
 					</div>

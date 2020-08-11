@@ -23,76 +23,78 @@
 						<div class="blockB">	
 							<p>第1本圖書：</p>
 							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="inputBookName" class="col-md-2 control-label"><span class="required">*</span>書名</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputBookName" placeholder="請輸入書名">
+								<fieldset>
+									<div class="form-group">
+										<label for="inputBookName" class="col-md-2 control-label"><span class="required">*</span>書名</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputBookName" placeholder="請輸入書名">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputAmount" class="col-md-2 control-label">冊 數</label>
-									<div class="col-md-10">
-										<select class="form-control">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-											<option>6</option>
-											<option>7</option>
-											<option>8</option>
-											<option>9</option>
-											<option>10</option>
-											<option>11</option>
-											<option>12</option>
-											<option>13</option>
-											<option>14</option>
-											<option>15</option>
-											<option>16</option>
-											<option>17</option>
-											<option>18</option>
-											<option>19</option>
-											<option>20</option>
-										</select>
+									<div class="form-group">
+										<label for="inputAmount" class="col-md-2 control-label">冊 數</label>
+										<div class="col-md-10">
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+											</select>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputCallNumber" class="col-md-2 control-label"><span class="required">*</span>索書號</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputCallNumber" placeholder="請輸入索書號">
+									<div class="form-group">
+										<label for="inputCallNumber" class="col-md-2 control-label"><span class="required">*</span>索書號</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputCallNumber" placeholder="請輸入索書號">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label"><span class="required">*</span>館藏位置</label>
-									<div class="col-md-10">
-										<div class="radio">
-											<label>
-									        	<input type="radio"> 2樓中文區 
-									        </label>
-									        <label>
-									        	<input type="radio"> 2樓西文區
-									        </label>
-									        <label>
-									        	<input type="radio"> B1繪本區
-									        </label>
-									        <label style="padding-left: 0;">
-									        	<input type="text" class="form-control" id="inputBoxNumber" placeholder="櫃號名稱">
-									        </label>
-									        <label>
-									        	<input type="radio"> B1幼兒區
-									        </label>
-									        <label>
-									        	<input type="radio"> B1 0-3歲圖書區
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label"><span class="required">*</span>館藏位置</label>
+										<div class="col-md-10">
+											<div class="radio">
+												<label>
+										        	<input type="radio"> 2樓中文區 
+										        </label>
+										        <label>
+										        	<input type="radio"> 2樓西文區
+										        </label>
+										        <label>
+										        	<input type="radio"> B1繪本區
+										        </label>
+										        <label style="padding-left: 0;">
+										        	<input type="text" class="form-control" id="inputBoxNumber" placeholder="櫃號名稱">
+										        </label>
+										        <label>
+										        	<input type="radio"> B1幼兒區
+										        </label>
+										        <label>
+										        	<input type="radio"> B1 0-3歲圖書區
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-md-offset-2 col-md-10">
-										<button type="submit" class="btn btn-orange">新增一本</button>
-										<!-- <button type="clear" class="btn btn-gray">減少一本</button> -->
+									<div class="form-group">
+										<div class="col-md-offset-2 col-md-10">
+											<button type="submit" class="btn btn-orange">新增一本</button>
+											<!-- <button type="clear" class="btn btn-gray">減少一本</button> -->
+										</div>
 									</div>
-								</div>
+								</fieldset>
 							</form>	
 						</div>
 						<div class="blockB">	

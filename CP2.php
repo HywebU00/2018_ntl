@@ -137,7 +137,7 @@
 						</div>	
 						<!-- 反饋 -->
 						<div class="Feedback">
-							<div class="row">
+							<!-- <div class="row">
 								<div class="inner col-xs-12 col-sm-4 col-md-6">您覺得本項資訊對您有無幫助?</div>
 								<div class="inner col-xs-12 col-sm-8 col-md-6">
 									<label class="radio-inline">
@@ -150,7 +150,15 @@
 										<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 無幫助
 									</label>
 								</div>
-							</div>
+							</div> -->
+							<form>
+								<fieldset>
+									<legend>您覺得本項資訊對您有無幫助？</legend>
+									<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 有幫助
+									<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 沒意見
+							    	<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 無幫助
+								</fieldset>
+							</form>
 							<div class="inner">您對此頁內容如有意見，可透過意見回報反映給我們</div>
 							<a href="" class="btn btn-orange" title="">送出</a>
 							<a href="" class="btn btn-gray" title="">意見回報</a>

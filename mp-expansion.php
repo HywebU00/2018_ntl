@@ -188,19 +188,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="https://www.youtube.com/" title="">01本月活動</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -212,19 +212,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="https://www.youtube.com/" title="">一二三四五六</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -236,19 +236,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">03展覽</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -260,19 +260,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">04</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -284,19 +284,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">05</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -308,19 +308,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">06</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -332,19 +332,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">07</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -356,19 +356,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">08</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -380,19 +380,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">09</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>
@@ -404,19 +404,19 @@
 										<div class="NewsList">
 											<ul>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">10</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">提醒您，為防範狂犬病，104/8/1~105/7/31請勿攜帶寵園所轄自區內各據點開區內各據點開</a>
 												</li>
 												<li>
-													<h5 class="MetaTime">2015/09/28</h5>
+													<h4 class="MetaTime">2015/09/28</h4>
 													<a href="#" title="">太平山8月24日(一)上午八點起恢復開園 、 園所轄自區內各據點開區內各據點開</a>
 												</li>
 											</ul>

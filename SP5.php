@@ -34,102 +34,104 @@
 						<br>
 						<div class="blockB">
 							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="inputName" class="col-md-2 control-label"><span class="required">*</span>申請人</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputName" placeholder="請輸入申請人">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputContent" class="col-md-2 control-label"><span class="required">*</span>拍攝範圍及內容</label>
-									<div class="col-md-10">
-										<textarea class="form-control" rows="3" placeholder="拍攝範圍及內容" id="inputContent"></textarea>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>申請日期</label>
-									<div class="col-md-10">
-										<div class="input-group date">
-										    <input type="date" class="form-control" value="請輸入申請日期">
-										    <div class="input-group-addon">
-										        <span class="icon-calendar"></span>
-										    </div>
+								<fieldset>
+									<div class="form-group">
+										<label for="inputName" class="col-md-2 control-label"><span class="required">*</span>申請人</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputName" placeholder="請輸入申請人">
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputDep" class="col-md-2 control-label"><span class="required">*</span>申請單位</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputDep" placeholder="請輸入申請單位">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>電話</label>
-									<div class="col-md-10">
-										<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入電話">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputDate2" class="col-md-2 control-label"><span class="required">*</span>預定拍攝<br>開始時間</label>
-									<div class="col-md-10">
-										<div class="input-group date">
-										    <input type="time" class="form-control" value="請輸入開始時間">
-										    <div class="input-group-addon">
-										        <span class="icon-clock"></span>
-										    </div>
+									<div class="form-group">
+										<label for="inputContent" class="col-md-2 control-label"><span class="required">*</span>拍攝範圍及內容</label>
+										<div class="col-md-10">
+											<textarea class="form-control" rows="3" placeholder="拍攝範圍及內容" id="inputContent"></textarea>
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputDate3" class="col-md-2 control-label"><span class="required">*</span>預定拍攝<br>結束時間</label>
-									<div class="col-md-10">
-										<div class="input-group date">
-										    <input type="time" class="form-control" value="請輸入結束時間">
-										    <div class="input-group-addon">
-										        <span class="icon-clock"></span>
-										    </div>
+									<div class="form-group">
+										<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>申請日期</label>
+										<div class="col-md-10">
+											<div class="input-group date">
+											    <input type="date" class="form-control" value="請輸入申請日期">
+											    <div class="input-group-addon">
+											        <span class="icon-calendar"></span>
+											    </div>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label"><span class="required">*</span>拍攝方式</label>
-									<div class="col-md-10">
-										<div class="checkbox">
-											<label>
-									        	<input type="checkbox"> 照相
-									        </label>
-									        <label>
-									        	<input type="checkbox"> 錄影
-									        </label>
-									        <label>
-									        	<input type="checkbox"> 其他
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="inputDep" class="col-md-2 control-label"><span class="required">*</span>申請單位</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputDep" placeholder="請輸入申請單位">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">拍攝目的</label>
-									<div class="col-md-10">
-										<textarea class="form-control" rows="3" placeholder="請輸入拍攝目的" id=""></textarea>
+									<div class="form-group">
+										<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>電話</label>
+										<div class="col-md-10">
+											<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入電話">
+										</div>
 									</div>
-								</div>
-								<div class="form-group MarginBottom15">
-									<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
-									<div class="col-md-5">
-										<input type="text" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+									<div class="form-group">
+										<label for="inputDate2" class="col-md-2 control-label"><span class="required">*</span>預定拍攝<br>開始時間</label>
+										<div class="col-md-10">
+											<div class="input-group date">
+											    <input type="time" class="form-control" value="請輸入開始時間">
+											    <div class="input-group-addon">
+											        <span class="icon-clock"></span>
+											    </div>
+											</div>
+										</div>
 									</div>
-									<div class="col-md-5">
-										<span class="captcha"><img src="images/basic/code.bmp"></span>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+									<div class="form-group">
+										<label for="inputDate3" class="col-md-2 control-label"><span class="required">*</span>預定拍攝<br>結束時間</label>
+										<div class="col-md-10">
+											<div class="input-group date">
+											    <input type="time" class="form-control" value="請輸入結束時間">
+											    <div class="input-group-addon">
+											        <span class="icon-clock"></span>
+											    </div>
+											</div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-md-offset-2 col-md-10">
-										<button type="submit" class="btn btn-orange">送出</button>
-										<button type="clear" class="btn btn-gray">清除重填</button>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label"><span class="required">*</span>拍攝方式</label>
+										<div class="col-md-10">
+											<div class="checkbox">
+												<label>
+										        	<input type="checkbox"> 照相
+										        </label>
+										        <label>
+										        	<input type="checkbox"> 錄影
+										        </label>
+										        <label>
+										        	<input type="checkbox"> 其他
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">拍攝目的</label>
+										<div class="col-md-10">
+											<textarea class="form-control" rows="3" placeholder="請輸入拍攝目的" id=""></textarea>
+										</div>
+									</div>
+									<div class="form-group MarginBottom15">
+										<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
+										<div class="col-md-5">
+											<input type="text" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+										</div>
+										<div class="col-md-5">
+											<span class="captcha"><img src="images/basic/code.bmp"></span>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-offset-2 col-md-10">
+											<button type="submit" class="btn btn-orange">送出</button>
+											<button type="clear" class="btn btn-gray">清除重填</button>
+										</div>
+									</div>
+								</fieldset>
 							</form>	
 						</div>						
 					</div>

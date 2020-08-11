@@ -43,136 +43,138 @@
 						<br>
 						<div class="blockB">
 							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>公共服務時間</label>
-									<div class="col-md-10">
-										<div class="input-group date">
-										    <input type="date" class="form-control" value="請輸入參觀時間">
-										    <div class="input-group-addon">
-										        <span class="icon-calendar"></span>
-										    </div>
+								<fieldset>
+									<div class="form-group">
+										<label for="inputDate" class="col-md-2 control-label"><span class="required">*</span>公共服務時間</label>
+										<div class="col-md-10">
+											<div class="input-group date">
+											    <input type="date" class="form-control" value="請輸入參觀時間">
+											    <div class="input-group-addon">
+											        <span class="icon-calendar"></span>
+											    </div>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputAmount" class="col-md-2 control-label">上午時段</label>
-									<div class="col-md-10">
-										<div class="col-md-5 padding0">
-											<select class="form-control">
-												<option>09</option>
-												<option>10</option>
-												<option>11</option>
-											</select>
-										</div>
-										<div class="col-md-1">至</div>
-										<div class="col-md-6 padding0">
-											<select class="form-control">
-												<option>10</option>
-												<option>11</option>
-												<option>12</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="form-group Divider">
-									<label for="inputAmount" class="col-md-2 control-label">下午時段</label>
-									<div class="col-md-10">
-										<div class="col-md-5 padding0">
-											<select class="form-control">
-												<option>12</option>
-												<option>13</option>
-												<option>14</option>
-												<option>15</option>
-												<option>16</option>
-												<option>17</option>
-												<option>18</option>
-												<option>19</option>
-												<option>20</option>
-											</select>
-										</div>
-										<div class="col-md-1">至</div>
-										<div class="col-md-6 padding0">
-											<select class="form-control">
-												<option>13</option>
-												<option>14</option>
-												<option>15</option>
-												<option>16</option>
-												<option>17</option>
-												<option>18</option>
-												<option>19</option>
-												<option>20</option>
-												<option>21</option>
-											</select>
+									<div class="form-group">
+										<label for="inputAmount" class="col-md-2 control-label">上午時段</label>
+										<div class="col-md-10">
+											<div class="col-md-5 padding0">
+												<select class="form-control">
+													<option>09</option>
+													<option>10</option>
+													<option>11</option>
+												</select>
+											</div>
+											<div class="col-md-1">至</div>
+											<div class="col-md-6 padding0">
+												<select class="form-control">
+													<option>10</option>
+													<option>11</option>
+													<option>12</option>
+												</select>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label"><span class="required">*</span>服務地點</label>
-									<div class="col-md-10">
-										<div class="radio">
-											<label>
-									        	<input type="radio"> 2-3樓閱覽書庫區
-									        </label>
-									        <label>
-									        	<input type="radio"> 親子資料中心
-									        </label>
-									        <label>
-									        	<input type="radio"> 期刊室
-									        </label>
-								        </div>
+									<div class="form-group Divider">
+										<label for="inputAmount" class="col-md-2 control-label">下午時段</label>
+										<div class="col-md-10">
+											<div class="col-md-5 padding0">
+												<select class="form-control">
+													<option>12</option>
+													<option>13</option>
+													<option>14</option>
+													<option>15</option>
+													<option>16</option>
+													<option>17</option>
+													<option>18</option>
+													<option>19</option>
+													<option>20</option>
+												</select>
+											</div>
+											<div class="col-md-1">至</div>
+											<div class="col-md-6 padding0">
+												<select class="form-control">
+													<option>13</option>
+													<option>14</option>
+													<option>15</option>
+													<option>16</option>
+													<option>17</option>
+													<option>18</option>
+													<option>19</option>
+													<option>20</option>
+													<option>21</option>
+												</select>
+											</div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputContact" class="col-md-2 control-label"><span class="required">*</span>姓名</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control" id="inputContact" placeholder="請輸入聯絡人">
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label"><span class="required">*</span>服務地點</label>
+										<div class="col-md-10">
+											<div class="radio">
+												<label>
+										        	<input type="radio"> 2-3樓閱覽書庫區
+										        </label>
+										        <label>
+										        	<input type="radio"> 親子資料中心
+										        </label>
+										        <label>
+										        	<input type="radio"> 期刊室
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>聯絡電話</label>
-									<div class="col-md-10">
-										<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入聯絡電話">
+									<div class="form-group">
+										<label for="inputContact" class="col-md-2 control-label"><span class="required">*</span>姓名</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputContact" placeholder="請輸入聯絡人">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputEmail" class="col-md-2 control-label"><span class="required">*</span>電子郵件</label>
-									<div class="col-md-10">
-										<input type="email" class="form-control" id="inputEmail" placeholder="請輸入電子郵件">
+									<div class="form-group">
+										<label for="inputPhone" class="col-md-2 control-label"><span class="required">*</span>聯絡電話</label>
+										<div class="col-md-10">
+											<input type="tel" class="form-control" id="inputPhone" placeholder="請輸入聯絡電話">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label"><span class="required">*</span>身分別</label>
-									<div class="col-md-10">
-										<div class="radio">
-											<label>
-									        	<input type="radio"> 國中
-									        </label>
-									        <label>
-									        	<input type="radio"> 高中職
-									        </label>
-									        <label>
-									        	<input type="radio"> 大專院校
-									        </label>
-								        </div>
+									<div class="form-group">
+										<label for="inputEmail" class="col-md-2 control-label"><span class="required">*</span>電子郵件</label>
+										<div class="col-md-10">
+											<input type="email" class="form-control" id="inputEmail" placeholder="請輸入電子郵件">
+										</div>
 									</div>
-								</div>
-								<div class="form-group">
-									<label for="" class="col-md-2 control-label">備註</label>
-									<div class="col-md-10">
-										<textarea class="form-control" rows="3" placeholder="請輸入備註" id="inputContent"></textarea>
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label"><span class="required">*</span>身分別</label>
+										<div class="col-md-10">
+											<div class="radio">
+												<label>
+										        	<input type="radio"> 國中
+										        </label>
+										        <label>
+										        	<input type="radio"> 高中職
+										        </label>
+										        <label>
+										        	<input type="radio"> 大專院校
+										        </label>
+									        </div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group MarginBottom15">
-									<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
-									<div class="col-md-5">
-										<input type="password" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+									<div class="form-group">
+										<label for="" class="col-md-2 control-label">備註</label>
+										<div class="col-md-10">
+											<textarea class="form-control" rows="3" placeholder="請輸入備註" id="inputContent"></textarea>
+										</div>
 									</div>
-									<div class="col-md-5">
-										<span class="captcha"><img src="images/basic/code.bmp"></span>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+									<div class="form-group MarginBottom15">
+										<label for="inputCaptcha" class="col-md-2 control-label"><span class="required">*</span>驗證碼</label>
+										<div class="col-md-5">
+											<input type="password" class="form-control" id="inputCaptcha" placeholder="驗證碼">
+										</div>
+										<div class="col-md-5">
+											<span class="captcha"><img src="images/basic/code.bmp"></span>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
+											<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+										</div>
 									</div>
-								</div>
+								</fieldset>
 							</form>
 						</div>
 						<!-- 送出 / 取消 -->
