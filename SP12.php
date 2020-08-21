@@ -21,7 +21,22 @@
 							<form class="form-horizontal">
 								<fieldset>
 									<div class="form-group">
-										<label for="inputTeamName" class="col-md-2 control-label"><span class="required">*</span>團體名稱 / Group Title</label>
+										<label for="" class="col-md-2 control-label">
+											<span class="required">*</span>
+											<legend>錯誤包覆/會跑版</legend>
+										</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="inputTeamName" placeholder="請輸入團體名稱">
+										</div>
+									</div>
+								</fieldset>
+								<fieldset>
+									<div class="form-group">
+										<label for="inputTeamName" class="col-md-2 control-label">
+											<legend>
+												<span class="required">*</span>正確包覆/不跑版
+											</legend>
+										</label>
 										<div class="col-md-10">
 											<input type="text" class="form-control" id="inputTeamName" placeholder="請輸入團體名稱">
 										</div>
