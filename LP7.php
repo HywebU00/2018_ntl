@@ -67,8 +67,9 @@
 												</li>
 												<li class="department">
 													<a href="" title="" class="org-blue">參考特藏組</a> 
-													<ul class="sections">
+													<ul class="sections multiple">
 														<li class="section"><a href="" title="" class="org-Light-blue">臺灣圖書醫院</a></li>
+														<li class="section"><a href="" title="" class="org-Light-blue">本土教育資源中心</a></li>
 													</ul>
 												</li>
 												<li class="department">

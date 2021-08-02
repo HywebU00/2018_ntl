@@ -2762,66 +2762,190 @@ a:hover.org-orange, a:focus.org-orange{background:#f95800;}
 	margin: 0 auto;
 	top: 40px;
 }
-.org-chart .departments {
-	width: 100%;
-	display: block;
-	clear: both;
-}
-.org-chart .departments:before {
-	content: "";
-	position: relative;
-	display: block;
-	width: 10%;
-	height: 22px;
-	border-top: 2px dotted #a6a6a6;
-	border-left: 2px dotted #a6a6a6;
-	left: 5%;
-}
-.org-chart .departments:after {
-	content: "";
-	position: relative;
-	display: block;
-	width: 82%;
-	height: 22px;
-	border-top: 2px solid #a6a6a6;
-	border-right: 2px solid #a6a6a6;
-	top: -22px;
-	left: 10%;
-}
 
-.org-chart .department{
-	width: 10%;
-	float: left;
-	margin: 0px 4px;
-}
-.org-chart .department:after {
-	content: "";
-	position: absolute;
-	display: block;
-	width: 10px;
-	height: 22px;
-	border-left: 2px solid #a6a6a6;
-	left: 50%;
-	top: -22px;
-}
+// 組織架構
+.org-chart{
 
-.org-chart .department .section:after {
-	content: "";
-	position: absolute;
-	display: block;
-	width: 10px;
-	height: 50px;
-	border-left: 2px dotted #a6a6a6;
-	left: 50%;
-	top:-25px;
-	z-index: -3;
+	.departments {
+		width: 100%;
+		display: block;
+		clear: both;
+
+		&:before {
+			content: "";
+			position: relative;
+			display: block;
+			width: 10%;
+			height: 22px;
+			border-top: 2px dotted #a6a6a6;
+			border-left: 2px dotted #a6a6a6;
+			left: 5%;
+		}
+		&:after {
+			content: "";
+			position: relative;
+			display: block;
+			width: 82%;
+			height: 22px;
+			border-top: 2px solid #a6a6a6;
+			border-right: 2px solid #a6a6a6;
+			top: -22px;
+			left: 10%;
+		}
+
+		.department{
+			width: 10%;
+			float: left;
+			margin: 0px 4px;
+
+			// &:before {
+			// 	content: "";
+			// 	position: absolute;
+			// 	display: block;
+			// 	width: 10px;
+			// 	height: 22px;
+			// 	border-left: 2px solid red;
+			// }
+
+			&:after {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 10px;
+				height: 22px;
+				border-left: 2px solid #a6a6a6;
+				left: 50%;
+				top: -22px;
+			}
+
+			&:first-child:after { display: none; }
+			&:last-child:after { display: none; }
+
+			.sections{
+				margin-top: 20px;
+
+				// 父層 flex
+				display: flex;
+				flex-flow: row nowrap;
+				&.multiple{
+					&:before {
+						content: "";
+						position: absolute;
+						display: block;
+						width: calc(50% + 2px);
+						height: 10px;
+						border-bottom: 2px solid #a6a6a6;
+						background: #fff;
+						left: 25%;
+						top: 64px;
+						z-index: -1;
+					}
+					&:after {
+						content: "";
+						position: absolute;
+						display: block;
+						width: 2px;
+						height: 10px;
+						background: #a6a6a6;
+						left: 50%;
+						top: 64px;
+					}
+				}
+
+				ul{
+					li { height: 80px;}
+				}
+
+				// 子層
+				.section{
+					flex: 1 0 50%;
+
+					// &:before {
+					// 	content: "";
+					// 	position: absolute;
+					// 	display: block;
+					// 	width: 10px;
+					// 	height: 30px;
+					// 	border: 1px solid red;
+					// 	// border-left: 2px dotted #a6a6a6;
+					// 	left: 50%;
+					// 	top:-25px;
+					// 	z-index: -3;
+					// }
+
+
+					&:after {
+						content: "";
+						position: absolute;
+						display: block;
+						width: 10px;
+						height: 30px;
+						border-left: 2px dotted #a6a6a6;
+						left: 50%;
+						top:-25px;
+						z-index: -3;
+					}
+				}
+			}
+		}
+	}
+
 }
+// .org-chart .departments:before {
+// 	content: "";
+// 	position: relative;
+// 	display: block;
+// 	width: 10%;
+// 	height: 22px;
+// 	border-top: 2px dotted #a6a6a6;
+// 	border-left: 2px dotted #a6a6a6;
+// 	left: 5%;
+// }
+// .org-chart .departments:after {
+// 	content: "";
+// 	position: relative;
+// 	display: block;
+// 	width: 82%;
+// 	height: 22px;
+// 	border-top: 2px solid #a6a6a6;
+// 	border-right: 2px solid #a6a6a6;
+// 	top: -22px;
+// 	left: 10%;
+// }
 
-.org-chart .department:first-child:after {display: none;}
-.org-chart .department:last-child:after {display: none;}
-.org-chart .department li { height: 80px;}
+// .org-chart .department{
+// 	width: 10%;
+// 	float: left;
+// 	margin: 0px 4px;
+// }
+// .org-chart .department:after {
+// 	content: "";
+// 	position: absolute;
+// 	display: block;
+// 	width: 10px;
+// 	height: 22px;
+// 	border-left: 2px solid #a6a6a6;
+// 	left: 50%;
+// 	top: -22px;
+// }
 
-.org-chart .department .sections {margin-top: 20px;}
+// .org-chart .department .section:after {
+// 	content: "";
+// 	position: absolute;
+// 	display: block;
+// 	width: 10px;
+// 	height: 50px;
+// 	border-left: 2px dotted #a6a6a6;
+// 	left: 50%;
+// 	top:-25px;
+// 	z-index: -3;
+// }
+
+// .org-chart .department:first-child:after {display: none;}
+// .org-chart .department:last-child:after {display: none;}
+// .org-chart .department li { height: 80px;}
+
+// .org-chart .department .sections {margin-top: 20px;}
 
 /*修正微調 0222*/
 span.glyphicon.glyphicon-search{line-height: inherit !important;}/*搜尋icon位置修正*/
