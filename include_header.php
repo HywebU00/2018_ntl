@@ -35,10 +35,12 @@
               </div>
               <!--language-->
               <div class="Language">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">日本語</a></li>
+                <a href="#">語言選擇</a>
+                <ul>
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">简体中文</a></li>
                   <li><a href="#">ENGLISH</a></li>
-                </ul> 
+                </ul>
               </div>
               <!--search-->  
               <div class="Search pull-sm-right pull-md-right pull-lg-right hidden-xs">

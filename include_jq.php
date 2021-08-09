@@ -118,6 +118,30 @@
   })
 </script>
 
+<!-- 語言 -->
+<script type="text/javascript">
+  $(function(){
+    $('.Language').find('ul').hide();
+      var openLang = $('.Language').children('a');
+      openLang.off().click(function(e) {
+          $(this).next('ul').stop(true, true).slideToggle();
+          e.preventDefault();
+      });
+      openLang.keyup(function() {
+          $(this).next('ul').stop(true, true).slideDown();
+      });
+      $('.Language').find('ul li:last>a').focusout(function() {
+          $('.Language').find('ul').hide();
+      });
+      $(document).on('touchend click', function(e) {
+          var target = e.target;
+          if (!$(target).is('.Language a')) {
+              $('.Language').find('ul').hide();
+          }
+      });
+  });
+</script>
+
 <!-- dropdownHover-->
 <script src="js/bootstrap-hover-dropdown.js"></script>
 <script type="text/javascript">
