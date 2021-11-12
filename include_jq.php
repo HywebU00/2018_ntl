@@ -1,7 +1,7 @@
 <script  src="assets/js/jquery-1.11.2.js"></script>
 <script  src="assets/js/jquery.easing.min.js"></script>
 <!-- Bootstrap JavaScript -->
-<script src="assets/module/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+<script src="assets/module/bootstrap-3.4.1/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.lazyload.min.js"></script>
 <script src="assets/js/BS3JS.min.js"></script> 
 
