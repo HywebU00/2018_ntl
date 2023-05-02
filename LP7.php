@@ -34,12 +34,12 @@
 										<div class="board-Inner">
 											<!--欄Ａ-->
 											<ul class="columnTwo">
-												<li><a href="" title="" class="org-orange">圖書館事業<br>研究發展委員會</a></li>
-												<li><a href="" title="" class="org-orange">臺灣學研究中心<br>諮詢委員會</a></li>
+												<li><a href="" title="" class="org-orange">臺灣學研究中心<br>諮詢會</a></a></li>
+												<li><a href="" title="" class="org-orange">身心障礙者圖書資源利用<br>諮詢會</a></li>
 											</ul>		
 											<!--欄Ｂ-->
-											<ul class="columnTwo" style="height: 70px;">
-												<li style="float:right;"><a href="" title="" class="org-orange">臺灣學研究中心</a></li>
+											<ul class="columnTwo">
+												<li><a href="" title="" class="org-orange">圖書館事業<br>研究發展諮詢會</a></li>
 											</ul>
 										</div>
 									</div>
@@ -61,9 +61,9 @@
 												</li>
 												<li class="department">
 													<a href="" title="" class="org-blue">秘書室</a> 
-													<ul class="sections">
+													<!-- <ul class="sections">
 														<li class="section"><a href="" title="" class="org-Light-blue">駐衛警小隊</a></li>
-													</ul>
+													</ul> -->
 												</li>
 												<li class="department">
 													<a href="" title="" class="org-blue">參考特藏組</a> 
@@ -86,6 +86,9 @@
 												</li>
 												<li class="department">
 													<a href="" title="" class="org-blue">企劃推廣組</a>
+													<ul class="sections">
+														<li class="section"><a href="" title="" class="org-Light-blue">臺灣學研究中心</a></li>
+													</ul> 
 												</li>
 											</ul>
 										</div>
